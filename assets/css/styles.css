@@ -1,0 +1,129 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c0c0c0 !important;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20%;
+  text-align: left;
+  color: #fff;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.scroll-down i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer .btn-primary {
+  margin-top: 10px;
+}
+
+.footer .col-md-4 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer .col-md-4 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .col-md-4 ul li {
+  margin-bottom: 10px;
+}
+
+.footer .col-md-4 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .col-md-4 ul li a:hover {
+  text-decoration: underline;
+}
+
+/* 修改轮播图片中的文字样式 */
+.carousel-caption h5, .carousel-caption p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px; /* 调整字体大小 */
+}
+
+/* 修改底栏内容样式 */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center; /* 确保底栏内容居中 */
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer i {
+  margin-right: 5px;
+}

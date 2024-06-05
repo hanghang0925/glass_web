@@ -1,0 +1,151 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c0c0c0 !important;
+}
+
+
+
+/* 全局样式 */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* 欢迎区域样式 */
+.welcome-area {
+  position: relative;
+  width: 100%;
+  height: auto; /* 根据实际图片高度调整 */
+}
+
+.welcome-area img.full-width {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.welcome-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 64px; /* 调整字体大小以适应设计 */
+  font-family: 'Great Vibes', cursive; /* 这是一种艺术字体的示例，可以更换 */
+  text-align: center;
+}
+
+/* 载入Google字体库中的艺术字体 */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* 公司介绍区域样式 */
+.company-introduction {
+  display: flex;
+  align-items: center; /* 确保图片和文字在垂直方向上中心对齐 */
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.image-left {
+  flex: 1; /* 给予图片和文本平等的空间 */
+  padding-right: 5%; /* 增加右侧内边距，使图片整体向右移动 */
+}
+
+.image-left img {
+  display: block;
+  width: 90%; /* 图片占其容器的大部分但留有边距 */
+  margin-left: 25%; /* 减少左侧外边距，使图片向右移动 */
+}
+
+
+.text-right {
+  flex: 1;
+  padding-left: 10%; /* 文本与图片之间留有适当空隙 */
+  text-align: left !important; /* 确保文本内容靠左显示，并使用!important提高优先级 */
+  padding-right: 10%; /* 保证文本不会触及到容器的右边界 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 修改底栏内容样式 */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center; /* 确保底栏内容居中 */
+}
+
+.footer p {
+  margin-bottom: 5px;
+}
+
+.footer i {
+  margin-right: 5px;
+}
+
+
+.footer {
+  padding: 20px 0;
+}
+
+.footer .btn-primary {
+  margin-top: 10px;
+}
+
+.footer .col-md-4 h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer .col-md-4 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .col-md-4 ul li {
+  margin-bottom: 10px;
+}
+
+.footer .col-md-4 ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .col-md-4 ul li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
