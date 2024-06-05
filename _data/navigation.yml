@@ -1,12 +1,12 @@
 - name: Home
-  link: /Glass_web/index.html
+  link: /Introdction_web/index.html
 - name: Products
-  link: /Glass_web/products.html
+  link: /Introdction_web/products.html
 - name: Culture
-  link: /Glass_web/culture.html
+  link: /Introdction_web/culture.html
 - name: Careers
-  link: /Glass_web/careers.html
+  link: /Introdction_web/careers.html
 - name: About Us
-  link: /Glass_web/about.html
+  link: /Introdction_web/about.html
 - name: Contact
-  link: /Glass_web/contact.html
+  link: /Introdction_web/contact.html
